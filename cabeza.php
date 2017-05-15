@@ -2,7 +2,7 @@
 <html lang="es">
 <?php
 $title = "Reliquia como reconstrucción de memoria";
-$descripcion = "Hierofoganía y mnemogénesis.";
+$descripcion = "Hierofoganía y mnemogénesis";
 ?>
 <head>
 <meta charset="utf-8">
@@ -10,7 +10,7 @@ $descripcion = "Hierofoganía y mnemogénesis.";
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo($title);?></title>
 <!--acá vamos a meter varios metadatos-->
-<meta name="robots" content="noindex">
+<meta name="description" content="<?php echo($description);?>">
 <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="bootstrap/style.css" rel="stylesheet">
@@ -37,9 +37,4 @@ $descripcion = "Hierofoganía y mnemogénesis.";
 </nav>
 </div>
 </div>
-<?php if((basename($_SERVER['PHP_SELF']))=='index.php'){?>
-  <h2><?php echo($descripcion_index);?></h2>
-<?php }else{ ?>
-  <h2><?php echo($descripcion_estudiantes);?></h2>
-<?php };?>
 </header>

@@ -1,6 +1,6 @@
 <?php include('cabeza.php');?>
 <section>
-<h2>Artículos</h2>
+<h2>A R T I C U L O S</h2>
 <?php
 // basta con la línea de PHP para llamar al imdb-movies.csv y asignarlo a la variable $csv
 $csv = array_map('str_getcsv', file('datos.csv'));
